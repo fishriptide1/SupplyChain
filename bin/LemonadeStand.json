@@ -122,15 +122,15 @@
         "absolutePath": "d:/Udacity/Home/Workspace/SupplyChain/remixexample.sol",
         "exportedSymbols": {
             "LemonadeStand": [
-                1875
+                1878
             ]
         },
-        "id": 1876,
+        "id": 1879,
         "license": "GPL-3.0",
         "nodeType": "SourceUnit",
         "nodes": [
             {
-                "id": 1574,
+                "id": 1577,
                 "literals": [
                     "solidity",
                     ">=",
@@ -147,9 +147,9 @@
                 "contractDependencies": [],
                 "contractKind": "contract",
                 "fullyImplemented": true,
-                "id": 1875,
+                "id": 1878,
                 "linearizedBaseContracts": [
-                    1875
+                    1878
                 ],
                 "name": "LemonadeStand",
                 "nameLocation": "114:13:8",
@@ -157,12 +157,12 @@
                 "nodes": [
                     {
                         "constant": false,
-                        "id": 1576,
+                        "id": 1579,
                         "mutability": "mutable",
                         "name": "owner",
                         "nameLocation": "169:5:8",
                         "nodeType": "VariableDeclaration",
-                        "scope": 1875,
+                        "scope": 1878,
                         "src": "161:13:8",
                         "stateVariable": true,
                         "storageLocation": "default",
@@ -171,7 +171,7 @@
                             "typeString": "address"
                         },
                         "typeName": {
-                            "id": 1575,
+                            "id": 1578,
                             "name": "address",
                             "nodeType": "ElementaryTypeName",
                             "src": "161:7:8",
@@ -185,12 +185,12 @@
                     },
                     {
                         "constant": false,
-                        "id": 1578,
+                        "id": 1581,
                         "mutability": "mutable",
                         "name": "skuCount",
                         "nameLocation": "216:8:8",
                         "nodeType": "VariableDeclaration",
-                        "scope": 1875,
+                        "scope": 1878,
                         "src": "211:13:8",
                         "stateVariable": true,
                         "storageLocation": "default",
@@ -199,7 +199,7 @@
                             "typeString": "uint256"
                         },
                         "typeName": {
-                            "id": 1577,
+                            "id": 1580,
                             "name": "uint",
                             "nodeType": "ElementaryTypeName",
                             "src": "211:4:8",
@@ -212,17 +212,17 @@
                     },
                     {
                         "canonicalName": "LemonadeStand.State",
-                        "id": 1581,
+                        "id": 1584,
                         "members": [
                             {
-                                "id": 1579,
+                                "id": 1582,
                                 "name": "ForSale",
                                 "nameLocation": "290:7:8",
                                 "nodeType": "EnumValue",
                                 "src": "290:7:8"
                             },
                             {
-                                "id": 1580,
+                                "id": 1583,
                                 "name": "Sold",
                                 "nameLocation": "299:4:8",
                                 "nodeType": "EnumValue",
@@ -236,16 +236,16 @@
                     },
                     {
                         "canonicalName": "LemonadeStand.Item",
-                        "id": 1595,
+                        "id": 1598,
                         "members": [
                             {
                                 "constant": false,
-                                "id": 1583,
+                                "id": 1586,
                                 "mutability": "mutable",
                                 "name": "name",
                                 "nameLocation": "405:4:8",
                                 "nodeType": "VariableDeclaration",
-                                "scope": 1595,
+                                "scope": 1598,
                                 "src": "397:12:8",
                                 "stateVariable": false,
                                 "storageLocation": "default",
@@ -254,7 +254,7 @@
                                     "typeString": "string"
                                 },
                                 "typeName": {
-                                    "id": 1582,
+                                    "id": 1585,
                                     "name": "string",
                                     "nodeType": "ElementaryTypeName",
                                     "src": "397:6:8",
@@ -267,12 +267,12 @@
                             },
                             {
                                 "constant": false,
-                                "id": 1585,
+                                "id": 1588,
                                 "mutability": "mutable",
                                 "name": "sku",
                                 "nameLocation": "426:3:8",
                                 "nodeType": "VariableDeclaration",
-                                "scope": 1595,
+                                "scope": 1598,
                                 "src": "420:9:8",
                                 "stateVariable": false,
                                 "storageLocation": "default",
@@ -281,7 +281,7 @@
                                     "typeString": "uint256"
                                 },
                                 "typeName": {
-                                    "id": 1584,
+                                    "id": 1587,
                                     "name": "uint",
                                     "nodeType": "ElementaryTypeName",
                                     "src": "420:4:8",
@@ -294,12 +294,12 @@
                             },
                             {
                                 "constant": false,
-                                "id": 1587,
+                                "id": 1590,
                                 "mutability": "mutable",
                                 "name": "price",
                                 "nameLocation": "446:5:8",
                                 "nodeType": "VariableDeclaration",
-                                "scope": 1595,
+                                "scope": 1598,
                                 "src": "440:11:8",
                                 "stateVariable": false,
                                 "storageLocation": "default",
@@ -308,7 +308,7 @@
                                     "typeString": "uint256"
                                 },
                                 "typeName": {
-                                    "id": 1586,
+                                    "id": 1589,
                                     "name": "uint",
                                     "nodeType": "ElementaryTypeName",
                                     "src": "440:4:8",
@@ -321,33 +321,33 @@
                             },
                             {
                                 "constant": false,
-                                "id": 1590,
+                                "id": 1593,
                                 "mutability": "mutable",
                                 "name": "state",
                                 "nameLocation": "469:5:8",
                                 "nodeType": "VariableDeclaration",
-                                "scope": 1595,
+                                "scope": 1598,
                                 "src": "462:12:8",
                                 "stateVariable": false,
                                 "storageLocation": "default",
                                 "typeDescriptions": {
-                                    "typeIdentifier": "t_enum$_State_$1581",
+                                    "typeIdentifier": "t_enum$_State_$1584",
                                     "typeString": "enum LemonadeStand.State"
                                 },
                                 "typeName": {
-                                    "id": 1589,
+                                    "id": 1592,
                                     "nodeType": "UserDefinedTypeName",
                                     "pathNode": {
-                                        "id": 1588,
+                                        "id": 1591,
                                         "name": "State",
                                         "nodeType": "IdentifierPath",
-                                        "referencedDeclaration": 1581,
+                                        "referencedDeclaration": 1584,
                                         "src": "462:5:8"
                                     },
-                                    "referencedDeclaration": 1581,
+                                    "referencedDeclaration": 1584,
                                     "src": "462:5:8",
                                     "typeDescriptions": {
-                                        "typeIdentifier": "t_enum$_State_$1581",
+                                        "typeIdentifier": "t_enum$_State_$1584",
                                         "typeString": "enum LemonadeStand.State"
                                     }
                                 },
@@ -355,12 +355,12 @@
                             },
                             {
                                 "constant": false,
-                                "id": 1592,
+                                "id": 1595,
                                 "mutability": "mutable",
                                 "name": "seller",
                                 "nameLocation": "494:6:8",
                                 "nodeType": "VariableDeclaration",
-                                "scope": 1595,
+                                "scope": 1598,
                                 "src": "485:15:8",
                                 "stateVariable": false,
                                 "storageLocation": "default",
@@ -369,7 +369,7 @@
                                     "typeString": "address"
                                 },
                                 "typeName": {
-                                    "id": 1591,
+                                    "id": 1594,
                                     "name": "address",
                                     "nodeType": "ElementaryTypeName",
                                     "src": "485:7:8",
@@ -383,12 +383,12 @@
                             },
                             {
                                 "constant": false,
-                                "id": 1594,
+                                "id": 1597,
                                 "mutability": "mutable",
                                 "name": "buyer",
                                 "nameLocation": "520:5:8",
                                 "nodeType": "VariableDeclaration",
-                                "scope": 1595,
+                                "scope": 1598,
                                 "src": "511:14:8",
                                 "stateVariable": false,
                                 "storageLocation": "default",
@@ -397,7 +397,7 @@
                                     "typeString": "address"
                                 },
                                 "typeName": {
-                                    "id": 1593,
+                                    "id": 1596,
                                     "name": "address",
                                     "nodeType": "ElementaryTypeName",
                                     "src": "511:7:8",
@@ -413,29 +413,29 @@
                         "name": "Item",
                         "nameLocation": "381:4:8",
                         "nodeType": "StructDefinition",
-                        "scope": 1875,
+                        "scope": 1878,
                         "src": "374:159:8",
                         "visibility": "public"
                     },
                     {
                         "constant": false,
-                        "id": 1600,
+                        "id": 1603,
                         "mutability": "mutable",
                         "name": "items",
                         "nameLocation": "645:5:8",
                         "nodeType": "VariableDeclaration",
-                        "scope": 1875,
+                        "scope": 1878,
                         "src": "622:28:8",
                         "stateVariable": true,
                         "storageLocation": "default",
                         "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1595_storage_$",
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1598_storage_$",
                             "typeString": "mapping(uint256 => struct LemonadeStand.Item)"
                         },
                         "typeName": {
-                            "id": 1599,
+                            "id": 1602,
                             "keyType": {
-                                "id": 1596,
+                                "id": 1599,
                                 "name": "uint",
                                 "nodeType": "ElementaryTypeName",
                                 "src": "631:4:8",
@@ -447,23 +447,23 @@
                             "nodeType": "Mapping",
                             "src": "622:22:8",
                             "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1595_storage_$",
+                                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1598_storage_$",
                                 "typeString": "mapping(uint256 => struct LemonadeStand.Item)"
                             },
                             "valueType": {
-                                "id": 1598,
+                                "id": 1601,
                                 "nodeType": "UserDefinedTypeName",
                                 "pathNode": {
-                                    "id": 1597,
+                                    "id": 1600,
                                     "name": "Item",
                                     "nodeType": "IdentifierPath",
-                                    "referencedDeclaration": 1595,
+                                    "referencedDeclaration": 1598,
                                     "src": "639:4:8"
                                 },
-                                "referencedDeclaration": 1595,
+                                "referencedDeclaration": 1598,
                                 "src": "639:4:8",
                                 "typeDescriptions": {
-                                    "typeIdentifier": "t_struct$_Item_$1595_storage_ptr",
+                                    "typeIdentifier": "t_struct$_Item_$1598_storage_ptr",
                                     "typeString": "struct LemonadeStand.Item"
                                 }
                             }
@@ -473,23 +473,23 @@
                     {
                         "anonymous": false,
                         "eventSelector": "a96ae0fc3224ebd79eebfe54bd130cc9cb94416cddd1f2386115e00b72532468",
-                        "id": 1604,
+                        "id": 1607,
                         "name": "ForSale",
                         "nameLocation": "680:7:8",
                         "nodeType": "EventDefinition",
                         "parameters": {
-                            "id": 1603,
+                            "id": 1606,
                             "nodeType": "ParameterList",
                             "parameters": [
                                 {
                                     "constant": false,
-                                    "id": 1602,
+                                    "id": 1605,
                                     "indexed": false,
                                     "mutability": "mutable",
                                     "name": "skuCount",
                                     "nameLocation": "693:8:8",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 1604,
+                                    "scope": 1607,
                                     "src": "688:13:8",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -498,7 +498,7 @@
                                         "typeString": "uint256"
                                     },
                                     "typeName": {
-                                        "id": 1601,
+                                        "id": 1604,
                                         "name": "uint",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "688:4:8",
@@ -517,23 +517,23 @@
                     {
                         "anonymous": false,
                         "eventSelector": "92f64ca637d023f354075a4be751b169c1a8a9ccb6d33cdd0cb3520543995727",
-                        "id": 1608,
+                        "id": 1611,
                         "name": "Sold",
                         "nameLocation": "715:4:8",
                         "nodeType": "EventDefinition",
                         "parameters": {
-                            "id": 1607,
+                            "id": 1610,
                             "nodeType": "ParameterList",
                             "parameters": [
                                 {
                                     "constant": false,
-                                    "id": 1606,
+                                    "id": 1609,
                                     "indexed": false,
                                     "mutability": "mutable",
                                     "name": "sku",
                                     "nameLocation": "725:3:8",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 1608,
+                                    "scope": 1611,
                                     "src": "720:8:8",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -542,7 +542,7 @@
                                         "typeString": "uint256"
                                     },
                                     "typeName": {
-                                        "id": 1605,
+                                        "id": 1608,
                                         "name": "uint",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "720:4:8",
@@ -560,7 +560,7 @@
                     },
                     {
                         "body": {
-                            "id": 1618,
+                            "id": 1621,
                             "nodeType": "Block",
                             "src": "831:59:8",
                             "statements": [
@@ -572,14 +572,14 @@
                                                     "typeIdentifier": "t_address",
                                                     "typeString": "address"
                                                 },
-                                                "id": 1614,
+                                                "id": 1617,
                                                 "isConstant": false,
                                                 "isLValue": false,
                                                 "isPure": false,
                                                 "lValueRequested": false,
                                                 "leftExpression": {
                                                     "expression": {
-                                                        "id": 1611,
+                                                        "id": 1614,
                                                         "name": "msg",
                                                         "nodeType": "Identifier",
                                                         "overloadedDeclarations": [],
@@ -590,7 +590,7 @@
                                                             "typeString": "msg"
                                                         }
                                                     },
-                                                    "id": 1612,
+                                                    "id": 1615,
                                                     "isConstant": false,
                                                     "isLValue": false,
                                                     "isPure": false,
@@ -606,11 +606,11 @@
                                                 "nodeType": "BinaryOperation",
                                                 "operator": "==",
                                                 "rightExpression": {
-                                                    "id": 1613,
+                                                    "id": 1616,
                                                     "name": "owner",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1576,
+                                                    "referencedDeclaration": 1579,
                                                     "src": "864:5:8",
                                                     "typeDescriptions": {
                                                         "typeIdentifier": "t_address",
@@ -631,7 +631,7 @@
                                                     "typeString": "bool"
                                                 }
                                             ],
-                                            "id": 1610,
+                                            "id": 1613,
                                             "name": "require",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [
@@ -645,7 +645,7 @@
                                                 "typeString": "function (bool) pure"
                                             }
                                         },
-                                        "id": 1615,
+                                        "id": 1618,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
@@ -660,23 +660,23 @@
                                             "typeString": "tuple()"
                                         }
                                     },
-                                    "id": 1616,
+                                    "id": 1619,
                                     "nodeType": "ExpressionStatement",
                                     "src": "842:28:8"
                                 },
                                 {
-                                    "id": 1617,
+                                    "id": 1620,
                                     "nodeType": "PlaceholderStatement",
                                     "src": "881:1:8"
                                 }
                             ]
                         },
-                        "id": 1619,
+                        "id": 1622,
                         "name": "onlyOwner",
                         "nameLocation": "819:9:8",
                         "nodeType": "ModifierDefinition",
                         "parameters": {
-                            "id": 1609,
+                            "id": 1612,
                             "nodeType": "ParameterList",
                             "parameters": [],
                             "src": "828:2:8"
@@ -687,7 +687,7 @@
                     },
                     {
                         "body": {
-                            "id": 1631,
+                            "id": 1634,
                             "nodeType": "Block",
                             "src": "990:62:8",
                             "statements": [
@@ -699,14 +699,14 @@
                                                     "typeIdentifier": "t_address",
                                                     "typeString": "address"
                                                 },
-                                                "id": 1627,
+                                                "id": 1630,
                                                 "isConstant": false,
                                                 "isLValue": false,
                                                 "isPure": false,
                                                 "lValueRequested": false,
                                                 "leftExpression": {
                                                     "expression": {
-                                                        "id": 1624,
+                                                        "id": 1627,
                                                         "name": "msg",
                                                         "nodeType": "Identifier",
                                                         "overloadedDeclarations": [],
@@ -717,7 +717,7 @@
                                                             "typeString": "msg"
                                                         }
                                                     },
-                                                    "id": 1625,
+                                                    "id": 1628,
                                                     "isConstant": false,
                                                     "isLValue": false,
                                                     "isPure": false,
@@ -733,11 +733,11 @@
                                                 "nodeType": "BinaryOperation",
                                                 "operator": "==",
                                                 "rightExpression": {
-                                                    "id": 1626,
+                                                    "id": 1629,
                                                     "name": "_address",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1621,
+                                                    "referencedDeclaration": 1624,
                                                     "src": "1023:8:8",
                                                     "typeDescriptions": {
                                                         "typeIdentifier": "t_address",
@@ -758,7 +758,7 @@
                                                     "typeString": "bool"
                                                 }
                                             ],
-                                            "id": 1623,
+                                            "id": 1626,
                                             "name": "require",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [
@@ -772,7 +772,7 @@
                                                 "typeString": "function (bool) pure"
                                             }
                                         },
-                                        "id": 1628,
+                                        "id": 1631,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
@@ -787,33 +787,33 @@
                                             "typeString": "tuple()"
                                         }
                                     },
-                                    "id": 1629,
+                                    "id": 1632,
                                     "nodeType": "ExpressionStatement",
                                     "src": "1001:31:8"
                                 },
                                 {
-                                    "id": 1630,
+                                    "id": 1633,
                                     "nodeType": "PlaceholderStatement",
                                     "src": "1043:1:8"
                                 }
                             ]
                         },
-                        "id": 1632,
+                        "id": 1635,
                         "name": "verifyCaller",
                         "nameLocation": "958:12:8",
                         "nodeType": "ModifierDefinition",
                         "parameters": {
-                            "id": 1622,
+                            "id": 1625,
                             "nodeType": "ParameterList",
                             "parameters": [
                                 {
                                     "constant": false,
-                                    "id": 1621,
+                                    "id": 1624,
                                     "mutability": "mutable",
                                     "name": "_address",
                                     "nameLocation": "980:8:8",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 1632,
+                                    "scope": 1635,
                                     "src": "972:16:8",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -822,7 +822,7 @@
                                         "typeString": "address"
                                     },
                                     "typeName": {
-                                        "id": 1620,
+                                        "id": 1623,
                                         "name": "address",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "972:7:8",
@@ -843,7 +843,7 @@
                     },
                     {
                         "body": {
-                            "id": 1644,
+                            "id": 1647,
                             "nodeType": "Block",
                             "src": "1183:59:8",
                             "statements": [
@@ -855,14 +855,14 @@
                                                     "typeIdentifier": "t_uint256",
                                                     "typeString": "uint256"
                                                 },
-                                                "id": 1640,
+                                                "id": 1643,
                                                 "isConstant": false,
                                                 "isLValue": false,
                                                 "isPure": false,
                                                 "lValueRequested": false,
                                                 "leftExpression": {
                                                     "expression": {
-                                                        "id": 1637,
+                                                        "id": 1640,
                                                         "name": "msg",
                                                         "nodeType": "Identifier",
                                                         "overloadedDeclarations": [],
@@ -873,7 +873,7 @@
                                                             "typeString": "msg"
                                                         }
                                                     },
-                                                    "id": 1638,
+                                                    "id": 1641,
                                                     "isConstant": false,
                                                     "isLValue": false,
                                                     "isPure": false,
@@ -889,11 +889,11 @@
                                                 "nodeType": "BinaryOperation",
                                                 "operator": ">=",
                                                 "rightExpression": {
-                                                    "id": 1639,
+                                                    "id": 1642,
                                                     "name": "_price",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1634,
+                                                    "referencedDeclaration": 1637,
                                                     "src": "1215:6:8",
                                                     "typeDescriptions": {
                                                         "typeIdentifier": "t_uint256",
@@ -914,7 +914,7 @@
                                                     "typeString": "bool"
                                                 }
                                             ],
-                                            "id": 1636,
+                                            "id": 1639,
                                             "name": "require",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [
@@ -928,7 +928,7 @@
                                                 "typeString": "function (bool) pure"
                                             }
                                         },
-                                        "id": 1641,
+                                        "id": 1644,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
@@ -943,33 +943,33 @@
                                             "typeString": "tuple()"
                                         }
                                     },
-                                    "id": 1642,
+                                    "id": 1645,
                                     "nodeType": "ExpressionStatement",
                                     "src": "1194:28:8"
                                 },
                                 {
-                                    "id": 1643,
+                                    "id": 1646,
                                     "nodeType": "PlaceholderStatement",
                                     "src": "1233:1:8"
                                 }
                             ]
                         },
-                        "id": 1645,
+                        "id": 1648,
                         "name": "paidEnough",
                         "nameLocation": "1159:10:8",
                         "nodeType": "ModifierDefinition",
                         "parameters": {
-                            "id": 1635,
+                            "id": 1638,
                             "nodeType": "ParameterList",
                             "parameters": [
                                 {
                                     "constant": false,
-                                    "id": 1634,
+                                    "id": 1637,
                                     "mutability": "mutable",
                                     "name": "_price",
                                     "nameLocation": "1175:6:8",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 1645,
+                                    "scope": 1648,
                                     "src": "1170:11:8",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -978,7 +978,7 @@
                                         "typeString": "uint256"
                                     },
                                     "typeName": {
-                                        "id": 1633,
+                                        "id": 1636,
                                         "name": "uint",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "1170:4:8",
@@ -998,7 +998,7 @@
                     },
                     {
                         "body": {
-                            "id": 1660,
+                            "id": 1663,
                             "nodeType": "Block",
                             "src": "1353:74:8",
                             "statements": [
@@ -1007,10 +1007,10 @@
                                         "arguments": [
                                             {
                                                 "commonType": {
-                                                    "typeIdentifier": "t_enum$_State_$1581",
+                                                    "typeIdentifier": "t_enum$_State_$1584",
                                                     "typeString": "enum LemonadeStand.State"
                                                 },
-                                                "id": 1656,
+                                                "id": 1659,
                                                 "isConstant": false,
                                                 "isLValue": false,
                                                 "isPure": false,
@@ -1018,24 +1018,24 @@
                                                 "leftExpression": {
                                                     "expression": {
                                                         "baseExpression": {
-                                                            "id": 1650,
+                                                            "id": 1653,
                                                             "name": "items",
                                                             "nodeType": "Identifier",
                                                             "overloadedDeclarations": [],
-                                                            "referencedDeclaration": 1600,
+                                                            "referencedDeclaration": 1603,
                                                             "src": "1372:5:8",
                                                             "typeDescriptions": {
-                                                                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1595_storage_$",
+                                                                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1598_storage_$",
                                                                 "typeString": "mapping(uint256 => struct LemonadeStand.Item storage ref)"
                                                             }
                                                         },
-                                                        "id": 1652,
+                                                        "id": 1655,
                                                         "indexExpression": {
-                                                            "id": 1651,
+                                                            "id": 1654,
                                                             "name": "_sku",
                                                             "nodeType": "Identifier",
                                                             "overloadedDeclarations": [],
-                                                            "referencedDeclaration": 1647,
+                                                            "referencedDeclaration": 1650,
                                                             "src": "1378:4:8",
                                                             "typeDescriptions": {
                                                                 "typeIdentifier": "t_uint256",
@@ -1049,21 +1049,21 @@
                                                         "nodeType": "IndexAccess",
                                                         "src": "1372:11:8",
                                                         "typeDescriptions": {
-                                                            "typeIdentifier": "t_struct$_Item_$1595_storage",
+                                                            "typeIdentifier": "t_struct$_Item_$1598_storage",
                                                             "typeString": "struct LemonadeStand.Item storage ref"
                                                         }
                                                     },
-                                                    "id": 1653,
+                                                    "id": 1656,
                                                     "isConstant": false,
                                                     "isLValue": true,
                                                     "isPure": false,
                                                     "lValueRequested": false,
                                                     "memberName": "state",
                                                     "nodeType": "MemberAccess",
-                                                    "referencedDeclaration": 1590,
+                                                    "referencedDeclaration": 1593,
                                                     "src": "1372:17:8",
                                                     "typeDescriptions": {
-                                                        "typeIdentifier": "t_enum$_State_$1581",
+                                                        "typeIdentifier": "t_enum$_State_$1584",
                                                         "typeString": "enum LemonadeStand.State"
                                                     }
                                                 },
@@ -1071,28 +1071,28 @@
                                                 "operator": "==",
                                                 "rightExpression": {
                                                     "expression": {
-                                                        "id": 1654,
+                                                        "id": 1657,
                                                         "name": "State",
                                                         "nodeType": "Identifier",
                                                         "overloadedDeclarations": [],
-                                                        "referencedDeclaration": 1581,
+                                                        "referencedDeclaration": 1584,
                                                         "src": "1393:5:8",
                                                         "typeDescriptions": {
-                                                            "typeIdentifier": "t_type$_t_enum$_State_$1581_$",
+                                                            "typeIdentifier": "t_type$_t_enum$_State_$1584_$",
                                                             "typeString": "type(enum LemonadeStand.State)"
                                                         }
                                                     },
-                                                    "id": 1655,
+                                                    "id": 1658,
                                                     "isConstant": false,
                                                     "isLValue": false,
                                                     "isPure": true,
                                                     "lValueRequested": false,
                                                     "memberName": "ForSale",
                                                     "nodeType": "MemberAccess",
-                                                    "referencedDeclaration": 1579,
+                                                    "referencedDeclaration": 1582,
                                                     "src": "1393:13:8",
                                                     "typeDescriptions": {
-                                                        "typeIdentifier": "t_enum$_State_$1581",
+                                                        "typeIdentifier": "t_enum$_State_$1584",
                                                         "typeString": "enum LemonadeStand.State"
                                                     }
                                                 },
@@ -1110,7 +1110,7 @@
                                                     "typeString": "bool"
                                                 }
                                             ],
-                                            "id": 1649,
+                                            "id": 1652,
                                             "name": "require",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [
@@ -1124,7 +1124,7 @@
                                                 "typeString": "function (bool) pure"
                                             }
                                         },
-                                        "id": 1657,
+                                        "id": 1660,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
@@ -1139,33 +1139,33 @@
                                             "typeString": "tuple()"
                                         }
                                     },
-                                    "id": 1658,
+                                    "id": 1661,
                                     "nodeType": "ExpressionStatement",
                                     "src": "1364:43:8"
                                 },
                                 {
-                                    "id": 1659,
+                                    "id": 1662,
                                     "nodeType": "PlaceholderStatement",
                                     "src": "1418:1:8"
                                 }
                             ]
                         },
-                        "id": 1661,
+                        "id": 1664,
                         "name": "forSale",
                         "nameLocation": "1334:7:8",
                         "nodeType": "ModifierDefinition",
                         "parameters": {
-                            "id": 1648,
+                            "id": 1651,
                             "nodeType": "ParameterList",
                             "parameters": [
                                 {
                                     "constant": false,
-                                    "id": 1647,
+                                    "id": 1650,
                                     "mutability": "mutable",
                                     "name": "_sku",
                                     "nameLocation": "1347:4:8",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 1661,
+                                    "scope": 1664,
                                     "src": "1342:9:8",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -1174,7 +1174,7 @@
                                         "typeString": "uint256"
                                     },
                                     "typeName": {
-                                        "id": 1646,
+                                        "id": 1649,
                                         "name": "uint",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "1342:4:8",
@@ -1194,7 +1194,7 @@
                     },
                     {
                         "body": {
-                            "id": 1676,
+                            "id": 1679,
                             "nodeType": "Block",
                             "src": "1532:71:8",
                             "statements": [
@@ -1203,10 +1203,10 @@
                                         "arguments": [
                                             {
                                                 "commonType": {
-                                                    "typeIdentifier": "t_enum$_State_$1581",
+                                                    "typeIdentifier": "t_enum$_State_$1584",
                                                     "typeString": "enum LemonadeStand.State"
                                                 },
-                                                "id": 1672,
+                                                "id": 1675,
                                                 "isConstant": false,
                                                 "isLValue": false,
                                                 "isPure": false,
@@ -1214,24 +1214,24 @@
                                                 "leftExpression": {
                                                     "expression": {
                                                         "baseExpression": {
-                                                            "id": 1666,
+                                                            "id": 1669,
                                                             "name": "items",
                                                             "nodeType": "Identifier",
                                                             "overloadedDeclarations": [],
-                                                            "referencedDeclaration": 1600,
+                                                            "referencedDeclaration": 1603,
                                                             "src": "1551:5:8",
                                                             "typeDescriptions": {
-                                                                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1595_storage_$",
+                                                                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1598_storage_$",
                                                                 "typeString": "mapping(uint256 => struct LemonadeStand.Item storage ref)"
                                                             }
                                                         },
-                                                        "id": 1668,
+                                                        "id": 1671,
                                                         "indexExpression": {
-                                                            "id": 1667,
+                                                            "id": 1670,
                                                             "name": "_sku",
                                                             "nodeType": "Identifier",
                                                             "overloadedDeclarations": [],
-                                                            "referencedDeclaration": 1663,
+                                                            "referencedDeclaration": 1666,
                                                             "src": "1557:4:8",
                                                             "typeDescriptions": {
                                                                 "typeIdentifier": "t_uint256",
@@ -1245,21 +1245,21 @@
                                                         "nodeType": "IndexAccess",
                                                         "src": "1551:11:8",
                                                         "typeDescriptions": {
-                                                            "typeIdentifier": "t_struct$_Item_$1595_storage",
+                                                            "typeIdentifier": "t_struct$_Item_$1598_storage",
                                                             "typeString": "struct LemonadeStand.Item storage ref"
                                                         }
                                                     },
-                                                    "id": 1669,
+                                                    "id": 1672,
                                                     "isConstant": false,
                                                     "isLValue": true,
                                                     "isPure": false,
                                                     "lValueRequested": false,
                                                     "memberName": "state",
                                                     "nodeType": "MemberAccess",
-                                                    "referencedDeclaration": 1590,
+                                                    "referencedDeclaration": 1593,
                                                     "src": "1551:17:8",
                                                     "typeDescriptions": {
-                                                        "typeIdentifier": "t_enum$_State_$1581",
+                                                        "typeIdentifier": "t_enum$_State_$1584",
                                                         "typeString": "enum LemonadeStand.State"
                                                     }
                                                 },
@@ -1267,28 +1267,28 @@
                                                 "operator": "==",
                                                 "rightExpression": {
                                                     "expression": {
-                                                        "id": 1670,
+                                                        "id": 1673,
                                                         "name": "State",
                                                         "nodeType": "Identifier",
                                                         "overloadedDeclarations": [],
-                                                        "referencedDeclaration": 1581,
+                                                        "referencedDeclaration": 1584,
                                                         "src": "1572:5:8",
                                                         "typeDescriptions": {
-                                                            "typeIdentifier": "t_type$_t_enum$_State_$1581_$",
+                                                            "typeIdentifier": "t_type$_t_enum$_State_$1584_$",
                                                             "typeString": "type(enum LemonadeStand.State)"
                                                         }
                                                     },
-                                                    "id": 1671,
+                                                    "id": 1674,
                                                     "isConstant": false,
                                                     "isLValue": false,
                                                     "isPure": true,
                                                     "lValueRequested": false,
                                                     "memberName": "Sold",
                                                     "nodeType": "MemberAccess",
-                                                    "referencedDeclaration": 1580,
+                                                    "referencedDeclaration": 1583,
                                                     "src": "1572:10:8",
                                                     "typeDescriptions": {
-                                                        "typeIdentifier": "t_enum$_State_$1581",
+                                                        "typeIdentifier": "t_enum$_State_$1584",
                                                         "typeString": "enum LemonadeStand.State"
                                                     }
                                                 },
@@ -1306,7 +1306,7 @@
                                                     "typeString": "bool"
                                                 }
                                             ],
-                                            "id": 1665,
+                                            "id": 1668,
                                             "name": "require",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [
@@ -1320,7 +1320,7 @@
                                                 "typeString": "function (bool) pure"
                                             }
                                         },
-                                        "id": 1673,
+                                        "id": 1676,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
@@ -1335,33 +1335,33 @@
                                             "typeString": "tuple()"
                                         }
                                     },
-                                    "id": 1674,
+                                    "id": 1677,
                                     "nodeType": "ExpressionStatement",
                                     "src": "1543:40:8"
                                 },
                                 {
-                                    "id": 1675,
+                                    "id": 1678,
                                     "nodeType": "PlaceholderStatement",
                                     "src": "1594:1:8"
                                 }
                             ]
                         },
-                        "id": 1677,
+                        "id": 1680,
                         "name": "sold",
                         "nameLocation": "1516:4:8",
                         "nodeType": "ModifierDefinition",
                         "parameters": {
-                            "id": 1664,
+                            "id": 1667,
                             "nodeType": "ParameterList",
                             "parameters": [
                                 {
                                     "constant": false,
-                                    "id": 1663,
+                                    "id": 1666,
                                     "mutability": "mutable",
                                     "name": "_sku",
                                     "nameLocation": "1526:4:8",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 1677,
+                                    "scope": 1680,
                                     "src": "1521:9:8",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -1370,7 +1370,7 @@
                                         "typeString": "uint256"
                                     },
                                     "typeName": {
-                                        "id": 1662,
+                                        "id": 1665,
                                         "name": "uint",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "1521:4:8",
@@ -1390,23 +1390,23 @@
                     },
                     {
                         "body": {
-                            "id": 1689,
+                            "id": 1692,
                             "nodeType": "Block",
                             "src": "1633:60:8",
                             "statements": [
                                 {
                                     "expression": {
-                                        "id": 1683,
+                                        "id": 1686,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftHandSide": {
-                                            "id": 1680,
+                                            "id": 1683,
                                             "name": "owner",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 1576,
+                                            "referencedDeclaration": 1579,
                                             "src": "1644:5:8",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_address",
@@ -1417,7 +1417,7 @@
                                         "operator": "=",
                                         "rightHandSide": {
                                             "expression": {
-                                                "id": 1681,
+                                                "id": 1684,
                                                 "name": "msg",
                                                 "nodeType": "Identifier",
                                                 "overloadedDeclarations": [],
@@ -1428,7 +1428,7 @@
                                                     "typeString": "msg"
                                                 }
                                             },
-                                            "id": 1682,
+                                            "id": 1685,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": false,
@@ -1447,23 +1447,23 @@
                                             "typeString": "address"
                                         }
                                     },
-                                    "id": 1684,
+                                    "id": 1687,
                                     "nodeType": "ExpressionStatement",
                                     "src": "1644:18:8"
                                 },
                                 {
                                     "expression": {
-                                        "id": 1687,
+                                        "id": 1690,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftHandSide": {
-                                            "id": 1685,
+                                            "id": 1688,
                                             "name": "skuCount",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 1578,
+                                            "referencedDeclaration": 1581,
                                             "src": "1673:8:8",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_uint256",
@@ -1474,7 +1474,7 @@
                                         "operator": "=",
                                         "rightHandSide": {
                                             "hexValue": "30",
-                                            "id": 1686,
+                                            "id": 1689,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": true,
@@ -1494,13 +1494,13 @@
                                             "typeString": "uint256"
                                         }
                                     },
-                                    "id": 1688,
+                                    "id": 1691,
                                     "nodeType": "ExpressionStatement",
                                     "src": "1673:12:8"
                                 }
                             ]
                         },
-                        "id": 1690,
+                        "id": 1693,
                         "implemented": true,
                         "kind": "constructor",
                         "modifiers": [],
@@ -1508,18 +1508,18 @@
                         "nameLocation": "-1:-1:-1",
                         "nodeType": "FunctionDefinition",
                         "parameters": {
-                            "id": 1678,
+                            "id": 1681,
                             "nodeType": "ParameterList",
                             "parameters": [],
                             "src": "1622:2:8"
                         },
                         "returnParameters": {
-                            "id": 1679,
+                            "id": 1682,
                             "nodeType": "ParameterList",
                             "parameters": [],
                             "src": "1633:0:8"
                         },
-                        "scope": 1875,
+                        "scope": 1878,
                         "src": "1611:82:8",
                         "stateMutability": "payable",
                         "virtual": false,
@@ -1527,23 +1527,23 @@
                     },
                     {
                         "body": {
-                            "id": 1727,
+                            "id": 1730,
                             "nodeType": "Block",
                             "src": "1769:348:8",
                             "statements": [
                                 {
                                     "expression": {
-                                        "id": 1703,
+                                        "id": 1706,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftHandSide": {
-                                            "id": 1699,
+                                            "id": 1702,
                                             "name": "skuCount",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 1578,
+                                            "referencedDeclaration": 1581,
                                             "src": "1806:8:8",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_uint256",
@@ -1557,17 +1557,17 @@
                                                 "typeIdentifier": "t_uint256",
                                                 "typeString": "uint256"
                                             },
-                                            "id": 1702,
+                                            "id": 1705,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": false,
                                             "lValueRequested": false,
                                             "leftExpression": {
-                                                "id": 1700,
+                                                "id": 1703,
                                                 "name": "skuCount",
                                                 "nodeType": "Identifier",
                                                 "overloadedDeclarations": [],
-                                                "referencedDeclaration": 1578,
+                                                "referencedDeclaration": 1581,
                                                 "src": "1817:8:8",
                                                 "typeDescriptions": {
                                                     "typeIdentifier": "t_uint256",
@@ -1578,7 +1578,7 @@
                                             "operator": "+",
                                             "rightExpression": {
                                                 "hexValue": "31",
-                                                "id": 1701,
+                                                "id": 1704,
                                                 "isConstant": false,
                                                 "isLValue": false,
                                                 "isPure": true,
@@ -1604,7 +1604,7 @@
                                             "typeString": "uint256"
                                         }
                                     },
-                                    "id": 1704,
+                                    "id": 1707,
                                     "nodeType": "ExpressionStatement",
                                     "src": "1806:23:8"
                                 },
@@ -1612,11 +1612,11 @@
                                     "eventCall": {
                                         "arguments": [
                                             {
-                                                "id": 1706,
+                                                "id": 1709,
                                                 "name": "skuCount",
                                                 "nodeType": "Identifier",
                                                 "overloadedDeclarations": [],
-                                                "referencedDeclaration": 1578,
+                                                "referencedDeclaration": 1581,
                                                 "src": "1894:8:8",
                                                 "typeDescriptions": {
                                                     "typeIdentifier": "t_uint256",
@@ -1631,18 +1631,18 @@
                                                     "typeString": "uint256"
                                                 }
                                             ],
-                                            "id": 1705,
+                                            "id": 1708,
                                             "name": "ForSale",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 1604,
+                                            "referencedDeclaration": 1607,
                                             "src": "1886:7:8",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_function_event_nonpayable$_t_uint256_$returns$__$",
                                                 "typeString": "function (uint256)"
                                             }
                                         },
-                                        "id": 1707,
+                                        "id": 1710,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
@@ -1657,37 +1657,37 @@
                                             "typeString": "tuple()"
                                         }
                                     },
-                                    "id": 1708,
+                                    "id": 1711,
                                     "nodeType": "EmitStatement",
                                     "src": "1881:22:8"
                                 },
                                 {
                                     "expression": {
-                                        "id": 1725,
+                                        "id": 1728,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftHandSide": {
                                             "baseExpression": {
-                                                "id": 1709,
+                                                "id": 1712,
                                                 "name": "items",
                                                 "nodeType": "Identifier",
                                                 "overloadedDeclarations": [],
-                                                "referencedDeclaration": 1600,
+                                                "referencedDeclaration": 1603,
                                                 "src": "1981:5:8",
                                                 "typeDescriptions": {
-                                                    "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1595_storage_$",
+                                                    "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1598_storage_$",
                                                     "typeString": "mapping(uint256 => struct LemonadeStand.Item storage ref)"
                                                 }
                                             },
-                                            "id": 1711,
+                                            "id": 1714,
                                             "indexExpression": {
-                                                "id": 1710,
+                                                "id": 1713,
                                                 "name": "skuCount",
                                                 "nodeType": "Identifier",
                                                 "overloadedDeclarations": [],
-                                                "referencedDeclaration": 1578,
+                                                "referencedDeclaration": 1581,
                                                 "src": "1987:8:8",
                                                 "typeDescriptions": {
                                                     "typeIdentifier": "t_uint256",
@@ -1701,7 +1701,7 @@
                                             "nodeType": "IndexAccess",
                                             "src": "1981:15:8",
                                             "typeDescriptions": {
-                                                "typeIdentifier": "t_struct$_Item_$1595_storage",
+                                                "typeIdentifier": "t_struct$_Item_$1598_storage",
                                                 "typeString": "struct LemonadeStand.Item storage ref"
                                             }
                                         },
@@ -1710,11 +1710,11 @@
                                         "rightHandSide": {
                                             "arguments": [
                                                 {
-                                                    "id": 1713,
+                                                    "id": 1716,
                                                     "name": "_name",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1692,
+                                                    "referencedDeclaration": 1695,
                                                     "src": "2011:5:8",
                                                     "typeDescriptions": {
                                                         "typeIdentifier": "t_string_memory_ptr",
@@ -1722,11 +1722,11 @@
                                                     }
                                                 },
                                                 {
-                                                    "id": 1714,
+                                                    "id": 1717,
                                                     "name": "skuCount",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1578,
+                                                    "referencedDeclaration": 1581,
                                                     "src": "2023:8:8",
                                                     "typeDescriptions": {
                                                         "typeIdentifier": "t_uint256",
@@ -1734,11 +1734,11 @@
                                                     }
                                                 },
                                                 {
-                                                    "id": 1715,
+                                                    "id": 1718,
                                                     "name": "_price",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1694,
+                                                    "referencedDeclaration": 1697,
                                                     "src": "2040:6:8",
                                                     "typeDescriptions": {
                                                         "typeIdentifier": "t_uint256",
@@ -1747,34 +1747,34 @@
                                                 },
                                                 {
                                                     "expression": {
-                                                        "id": 1716,
+                                                        "id": 1719,
                                                         "name": "State",
                                                         "nodeType": "Identifier",
                                                         "overloadedDeclarations": [],
-                                                        "referencedDeclaration": 1581,
+                                                        "referencedDeclaration": 1584,
                                                         "src": "2055:5:8",
                                                         "typeDescriptions": {
-                                                            "typeIdentifier": "t_type$_t_enum$_State_$1581_$",
+                                                            "typeIdentifier": "t_type$_t_enum$_State_$1584_$",
                                                             "typeString": "type(enum LemonadeStand.State)"
                                                         }
                                                     },
-                                                    "id": 1717,
+                                                    "id": 1720,
                                                     "isConstant": false,
                                                     "isLValue": false,
                                                     "isPure": true,
                                                     "lValueRequested": false,
                                                     "memberName": "ForSale",
                                                     "nodeType": "MemberAccess",
-                                                    "referencedDeclaration": 1579,
+                                                    "referencedDeclaration": 1582,
                                                     "src": "2055:13:8",
                                                     "typeDescriptions": {
-                                                        "typeIdentifier": "t_enum$_State_$1581",
+                                                        "typeIdentifier": "t_enum$_State_$1584",
                                                         "typeString": "enum LemonadeStand.State"
                                                     }
                                                 },
                                                 {
                                                     "expression": {
-                                                        "id": 1718,
+                                                        "id": 1721,
                                                         "name": "msg",
                                                         "nodeType": "Identifier",
                                                         "overloadedDeclarations": [],
@@ -1785,7 +1785,7 @@
                                                             "typeString": "msg"
                                                         }
                                                     },
-                                                    "id": 1719,
+                                                    "id": 1722,
                                                     "isConstant": false,
                                                     "isLValue": false,
                                                     "isPure": false,
@@ -1802,7 +1802,7 @@
                                                     "arguments": [
                                                         {
                                                             "hexValue": "30",
-                                                            "id": 1722,
+                                                            "id": 1725,
                                                             "isConstant": false,
                                                             "isLValue": false,
                                                             "isPure": true,
@@ -1824,7 +1824,7 @@
                                                                 "typeString": "int_const 0"
                                                             }
                                                         ],
-                                                        "id": 1721,
+                                                        "id": 1724,
                                                         "isConstant": false,
                                                         "isLValue": false,
                                                         "isPure": true,
@@ -1836,14 +1836,14 @@
                                                             "typeString": "type(address)"
                                                         },
                                                         "typeName": {
-                                                            "id": 1720,
+                                                            "id": 1723,
                                                             "name": "address",
                                                             "nodeType": "ElementaryTypeName",
                                                             "src": "2097:7:8",
                                                             "typeDescriptions": {}
                                                         }
                                                     },
-                                                    "id": 1723,
+                                                    "id": 1726,
                                                     "isConstant": false,
                                                     "isLValue": false,
                                                     "isPure": true,
@@ -1874,7 +1874,7 @@
                                                         "typeString": "uint256"
                                                     },
                                                     {
-                                                        "typeIdentifier": "t_enum$_State_$1581",
+                                                        "typeIdentifier": "t_enum$_State_$1584",
                                                         "typeString": "enum LemonadeStand.State"
                                                     },
                                                     {
@@ -1886,18 +1886,18 @@
                                                         "typeString": "address"
                                                     }
                                                 ],
-                                                "id": 1712,
+                                                "id": 1715,
                                                 "name": "Item",
                                                 "nodeType": "Identifier",
                                                 "overloadedDeclarations": [],
-                                                "referencedDeclaration": 1595,
+                                                "referencedDeclaration": 1598,
                                                 "src": "1999:4:8",
                                                 "typeDescriptions": {
-                                                    "typeIdentifier": "t_type$_t_struct$_Item_$1595_storage_ptr_$",
+                                                    "typeIdentifier": "t_type$_t_struct$_Item_$1598_storage_ptr_$",
                                                     "typeString": "type(struct LemonadeStand.Item storage pointer)"
                                                 }
                                             },
-                                            "id": 1724,
+                                            "id": 1727,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": false,
@@ -1915,35 +1915,35 @@
                                             "src": "1999:110:8",
                                             "tryCall": false,
                                             "typeDescriptions": {
-                                                "typeIdentifier": "t_struct$_Item_$1595_memory_ptr",
+                                                "typeIdentifier": "t_struct$_Item_$1598_memory_ptr",
                                                 "typeString": "struct LemonadeStand.Item memory"
                                             }
                                         },
                                         "src": "1981:128:8",
                                         "typeDescriptions": {
-                                            "typeIdentifier": "t_struct$_Item_$1595_storage",
+                                            "typeIdentifier": "t_struct$_Item_$1598_storage",
                                             "typeString": "struct LemonadeStand.Item storage ref"
                                         }
                                     },
-                                    "id": 1726,
+                                    "id": 1729,
                                     "nodeType": "ExpressionStatement",
                                     "src": "1981:128:8"
                                 }
                             ]
                         },
                         "functionSelector": "62d6bbdf",
-                        "id": 1728,
+                        "id": 1731,
                         "implemented": true,
                         "kind": "function",
                         "modifiers": [
                             {
-                                "id": 1697,
+                                "id": 1700,
                                 "kind": "modifierInvocation",
                                 "modifierName": {
-                                    "id": 1696,
+                                    "id": 1699,
                                     "name": "onlyOwner",
                                     "nodeType": "IdentifierPath",
-                                    "referencedDeclaration": 1619,
+                                    "referencedDeclaration": 1622,
                                     "src": "1752:9:8"
                                 },
                                 "nodeType": "ModifierInvocation",
@@ -1954,17 +1954,17 @@
                         "nameLocation": "1710:7:8",
                         "nodeType": "FunctionDefinition",
                         "parameters": {
-                            "id": 1695,
+                            "id": 1698,
                             "nodeType": "ParameterList",
                             "parameters": [
                                 {
                                     "constant": false,
-                                    "id": 1692,
+                                    "id": 1695,
                                     "mutability": "mutable",
                                     "name": "_name",
                                     "nameLocation": "1732:5:8",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 1728,
+                                    "scope": 1731,
                                     "src": "1718:19:8",
                                     "stateVariable": false,
                                     "storageLocation": "memory",
@@ -1973,7 +1973,7 @@
                                         "typeString": "string"
                                     },
                                     "typeName": {
-                                        "id": 1691,
+                                        "id": 1694,
                                         "name": "string",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "1718:6:8",
@@ -1986,12 +1986,12 @@
                                 },
                                 {
                                     "constant": false,
-                                    "id": 1694,
+                                    "id": 1697,
                                     "mutability": "mutable",
                                     "name": "_price",
                                     "nameLocation": "1744:6:8",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 1728,
+                                    "scope": 1731,
                                     "src": "1739:11:8",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -2000,7 +2000,7 @@
                                         "typeString": "uint256"
                                     },
                                     "typeName": {
-                                        "id": 1693,
+                                        "id": 1696,
                                         "name": "uint",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "1739:4:8",
@@ -2015,12 +2015,12 @@
                             "src": "1717:34:8"
                         },
                         "returnParameters": {
-                            "id": 1698,
+                            "id": 1701,
                             "nodeType": "ParameterList",
                             "parameters": [],
                             "src": "1769:0:8"
                         },
-                        "scope": 1875,
+                        "scope": 1878,
                         "src": "1701:416:8",
                         "stateMutability": "nonpayable",
                         "virtual": false,
@@ -2028,23 +2028,23 @@
                     },
                     {
                         "body": {
-                            "id": 1789,
+                            "id": 1792,
                             "nodeType": "Block",
                             "src": "2208:476:8",
                             "statements": [
                                 {
                                     "assignments": [
-                                        1743
+                                        1746
                                     ],
                                     "declarations": [
                                         {
                                             "constant": false,
-                                            "id": 1743,
+                                            "id": 1746,
                                             "mutability": "mutable",
                                             "name": "buyer",
                                             "nameLocation": "2227:5:8",
                                             "nodeType": "VariableDeclaration",
-                                            "scope": 1789,
+                                            "scope": 1792,
                                             "src": "2219:13:8",
                                             "stateVariable": false,
                                             "storageLocation": "default",
@@ -2053,7 +2053,7 @@
                                                 "typeString": "address"
                                             },
                                             "typeName": {
-                                                "id": 1742,
+                                                "id": 1745,
                                                 "name": "address",
                                                 "nodeType": "ElementaryTypeName",
                                                 "src": "2219:7:8",
@@ -2066,10 +2066,10 @@
                                             "visibility": "internal"
                                         }
                                     ],
-                                    "id": 1746,
+                                    "id": 1749,
                                     "initialValue": {
                                         "expression": {
-                                            "id": 1744,
+                                            "id": 1747,
                                             "name": "msg",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
@@ -2080,7 +2080,7 @@
                                                 "typeString": "msg"
                                             }
                                         },
-                                        "id": 1745,
+                                        "id": 1748,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
@@ -2098,17 +2098,17 @@
                                 },
                                 {
                                     "assignments": [
-                                        1748
+                                        1751
                                     ],
                                     "declarations": [
                                         {
                                             "constant": false,
-                                            "id": 1748,
+                                            "id": 1751,
                                             "mutability": "mutable",
                                             "name": "price",
                                             "nameLocation": "2261:5:8",
                                             "nodeType": "VariableDeclaration",
-                                            "scope": 1789,
+                                            "scope": 1792,
                                             "src": "2256:10:8",
                                             "stateVariable": false,
                                             "storageLocation": "default",
@@ -2117,7 +2117,7 @@
                                                 "typeString": "uint256"
                                             },
                                             "typeName": {
-                                                "id": 1747,
+                                                "id": 1750,
                                                 "name": "uint",
                                                 "nodeType": "ElementaryTypeName",
                                                 "src": "2256:4:8",
@@ -2129,28 +2129,28 @@
                                             "visibility": "internal"
                                         }
                                     ],
-                                    "id": 1753,
+                                    "id": 1756,
                                     "initialValue": {
                                         "expression": {
                                             "baseExpression": {
-                                                "id": 1749,
+                                                "id": 1752,
                                                 "name": "items",
                                                 "nodeType": "Identifier",
                                                 "overloadedDeclarations": [],
-                                                "referencedDeclaration": 1600,
+                                                "referencedDeclaration": 1603,
                                                 "src": "2269:5:8",
                                                 "typeDescriptions": {
-                                                    "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1595_storage_$",
+                                                    "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1598_storage_$",
                                                     "typeString": "mapping(uint256 => struct LemonadeStand.Item storage ref)"
                                                 }
                                             },
-                                            "id": 1751,
+                                            "id": 1754,
                                             "indexExpression": {
-                                                "id": 1750,
+                                                "id": 1753,
                                                 "name": "sku",
                                                 "nodeType": "Identifier",
                                                 "overloadedDeclarations": [],
-                                                "referencedDeclaration": 1730,
+                                                "referencedDeclaration": 1733,
                                                 "src": "2275:3:8",
                                                 "typeDescriptions": {
                                                     "typeIdentifier": "t_uint256",
@@ -2164,18 +2164,18 @@
                                             "nodeType": "IndexAccess",
                                             "src": "2269:10:8",
                                             "typeDescriptions": {
-                                                "typeIdentifier": "t_struct$_Item_$1595_storage",
+                                                "typeIdentifier": "t_struct$_Item_$1598_storage",
                                                 "typeString": "struct LemonadeStand.Item storage ref"
                                             }
                                         },
-                                        "id": 1752,
+                                        "id": 1755,
                                         "isConstant": false,
                                         "isLValue": true,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "memberName": "price",
                                         "nodeType": "MemberAccess",
-                                        "referencedDeclaration": 1587,
+                                        "referencedDeclaration": 1590,
                                         "src": "2269:16:8",
                                         "typeDescriptions": {
                                             "typeIdentifier": "t_uint256",
@@ -2187,7 +2187,7 @@
                                 },
                                 {
                                     "expression": {
-                                        "id": 1759,
+                                        "id": 1762,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
@@ -2195,24 +2195,24 @@
                                         "leftHandSide": {
                                             "expression": {
                                                 "baseExpression": {
-                                                    "id": 1754,
+                                                    "id": 1757,
                                                     "name": "items",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1600,
+                                                    "referencedDeclaration": 1603,
                                                     "src": "2323:5:8",
                                                     "typeDescriptions": {
-                                                        "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1595_storage_$",
+                                                        "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1598_storage_$",
                                                         "typeString": "mapping(uint256 => struct LemonadeStand.Item storage ref)"
                                                     }
                                                 },
-                                                "id": 1756,
+                                                "id": 1759,
                                                 "indexExpression": {
-                                                    "id": 1755,
+                                                    "id": 1758,
                                                     "name": "sku",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1730,
+                                                    "referencedDeclaration": 1733,
                                                     "src": "2329:3:8",
                                                     "typeDescriptions": {
                                                         "typeIdentifier": "t_uint256",
@@ -2226,18 +2226,18 @@
                                                 "nodeType": "IndexAccess",
                                                 "src": "2323:10:8",
                                                 "typeDescriptions": {
-                                                    "typeIdentifier": "t_struct$_Item_$1595_storage",
+                                                    "typeIdentifier": "t_struct$_Item_$1598_storage",
                                                     "typeString": "struct LemonadeStand.Item storage ref"
                                                 }
                                             },
-                                            "id": 1757,
+                                            "id": 1760,
                                             "isConstant": false,
                                             "isLValue": true,
                                             "isPure": false,
                                             "lValueRequested": true,
                                             "memberName": "buyer",
                                             "nodeType": "MemberAccess",
-                                            "referencedDeclaration": 1594,
+                                            "referencedDeclaration": 1597,
                                             "src": "2323:16:8",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_address",
@@ -2247,11 +2247,11 @@
                                         "nodeType": "Assignment",
                                         "operator": "=",
                                         "rightHandSide": {
-                                            "id": 1758,
+                                            "id": 1761,
                                             "name": "buyer",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 1743,
+                                            "referencedDeclaration": 1746,
                                             "src": "2342:5:8",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_address",
@@ -2264,13 +2264,13 @@
                                             "typeString": "address"
                                         }
                                     },
-                                    "id": 1760,
+                                    "id": 1763,
                                     "nodeType": "ExpressionStatement",
                                     "src": "2323:24:8"
                                 },
                                 {
                                     "expression": {
-                                        "id": 1767,
+                                        "id": 1770,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
@@ -2278,24 +2278,24 @@
                                         "leftHandSide": {
                                             "expression": {
                                                 "baseExpression": {
-                                                    "id": 1761,
+                                                    "id": 1764,
                                                     "name": "items",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1600,
+                                                    "referencedDeclaration": 1603,
                                                     "src": "2385:5:8",
                                                     "typeDescriptions": {
-                                                        "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1595_storage_$",
+                                                        "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1598_storage_$",
                                                         "typeString": "mapping(uint256 => struct LemonadeStand.Item storage ref)"
                                                     }
                                                 },
-                                                "id": 1763,
+                                                "id": 1766,
                                                 "indexExpression": {
-                                                    "id": 1762,
+                                                    "id": 1765,
                                                     "name": "sku",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1730,
+                                                    "referencedDeclaration": 1733,
                                                     "src": "2391:3:8",
                                                     "typeDescriptions": {
                                                         "typeIdentifier": "t_uint256",
@@ -2309,21 +2309,21 @@
                                                 "nodeType": "IndexAccess",
                                                 "src": "2385:10:8",
                                                 "typeDescriptions": {
-                                                    "typeIdentifier": "t_struct$_Item_$1595_storage",
+                                                    "typeIdentifier": "t_struct$_Item_$1598_storage",
                                                     "typeString": "struct LemonadeStand.Item storage ref"
                                                 }
                                             },
-                                            "id": 1764,
+                                            "id": 1767,
                                             "isConstant": false,
                                             "isLValue": true,
                                             "isPure": false,
                                             "lValueRequested": true,
                                             "memberName": "state",
                                             "nodeType": "MemberAccess",
-                                            "referencedDeclaration": 1590,
+                                            "referencedDeclaration": 1593,
                                             "src": "2385:16:8",
                                             "typeDescriptions": {
-                                                "typeIdentifier": "t_enum$_State_$1581",
+                                                "typeIdentifier": "t_enum$_State_$1584",
                                                 "typeString": "enum LemonadeStand.State"
                                             }
                                         },
@@ -2331,54 +2331,54 @@
                                         "operator": "=",
                                         "rightHandSide": {
                                             "expression": {
-                                                "id": 1765,
+                                                "id": 1768,
                                                 "name": "State",
                                                 "nodeType": "Identifier",
                                                 "overloadedDeclarations": [],
-                                                "referencedDeclaration": 1581,
+                                                "referencedDeclaration": 1584,
                                                 "src": "2404:5:8",
                                                 "typeDescriptions": {
-                                                    "typeIdentifier": "t_type$_t_enum$_State_$1581_$",
+                                                    "typeIdentifier": "t_type$_t_enum$_State_$1584_$",
                                                     "typeString": "type(enum LemonadeStand.State)"
                                                 }
                                             },
-                                            "id": 1766,
+                                            "id": 1769,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": true,
                                             "lValueRequested": false,
                                             "memberName": "Sold",
                                             "nodeType": "MemberAccess",
-                                            "referencedDeclaration": 1580,
+                                            "referencedDeclaration": 1583,
                                             "src": "2404:10:8",
                                             "typeDescriptions": {
-                                                "typeIdentifier": "t_enum$_State_$1581",
+                                                "typeIdentifier": "t_enum$_State_$1584",
                                                 "typeString": "enum LemonadeStand.State"
                                             }
                                         },
                                         "src": "2385:29:8",
                                         "typeDescriptions": {
-                                            "typeIdentifier": "t_enum$_State_$1581",
+                                            "typeIdentifier": "t_enum$_State_$1584",
                                             "typeString": "enum LemonadeStand.State"
                                         }
                                     },
-                                    "id": 1768,
+                                    "id": 1771,
                                     "nodeType": "ExpressionStatement",
                                     "src": "2385:29:8"
                                 },
                                 {
                                     "assignments": [
-                                        1770
+                                        1773
                                     ],
                                     "declarations": [
                                         {
                                             "constant": false,
-                                            "id": 1770,
+                                            "id": 1773,
                                             "mutability": "mutable",
                                             "name": "transferTarget",
                                             "nameLocation": "2480:14:8",
                                             "nodeType": "VariableDeclaration",
-                                            "scope": 1789,
+                                            "scope": 1792,
                                             "src": "2464:30:8",
                                             "stateVariable": false,
                                             "storageLocation": "default",
@@ -2387,7 +2387,7 @@
                                                 "typeString": "address payable"
                                             },
                                             "typeName": {
-                                                "id": 1769,
+                                                "id": 1772,
                                                 "name": "address",
                                                 "nodeType": "ElementaryTypeName",
                                                 "src": "2464:15:8",
@@ -2400,30 +2400,30 @@
                                             "visibility": "internal"
                                         }
                                     ],
-                                    "id": 1778,
+                                    "id": 1781,
                                     "initialValue": {
                                         "arguments": [
                                             {
                                                 "expression": {
                                                     "baseExpression": {
-                                                        "id": 1773,
+                                                        "id": 1776,
                                                         "name": "items",
                                                         "nodeType": "Identifier",
                                                         "overloadedDeclarations": [],
-                                                        "referencedDeclaration": 1600,
+                                                        "referencedDeclaration": 1603,
                                                         "src": "2505:5:8",
                                                         "typeDescriptions": {
-                                                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1595_storage_$",
+                                                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1598_storage_$",
                                                             "typeString": "mapping(uint256 => struct LemonadeStand.Item storage ref)"
                                                         }
                                                     },
-                                                    "id": 1775,
+                                                    "id": 1778,
                                                     "indexExpression": {
-                                                        "id": 1774,
+                                                        "id": 1777,
                                                         "name": "sku",
                                                         "nodeType": "Identifier",
                                                         "overloadedDeclarations": [],
-                                                        "referencedDeclaration": 1730,
+                                                        "referencedDeclaration": 1733,
                                                         "src": "2511:3:8",
                                                         "typeDescriptions": {
                                                             "typeIdentifier": "t_uint256",
@@ -2437,18 +2437,18 @@
                                                     "nodeType": "IndexAccess",
                                                     "src": "2505:10:8",
                                                     "typeDescriptions": {
-                                                        "typeIdentifier": "t_struct$_Item_$1595_storage",
+                                                        "typeIdentifier": "t_struct$_Item_$1598_storage",
                                                         "typeString": "struct LemonadeStand.Item storage ref"
                                                     }
                                                 },
-                                                "id": 1776,
+                                                "id": 1779,
                                                 "isConstant": false,
                                                 "isLValue": true,
                                                 "isPure": false,
                                                 "lValueRequested": false,
                                                 "memberName": "seller",
                                                 "nodeType": "MemberAccess",
-                                                "referencedDeclaration": 1592,
+                                                "referencedDeclaration": 1595,
                                                 "src": "2505:17:8",
                                                 "typeDescriptions": {
                                                     "typeIdentifier": "t_address",
@@ -2463,7 +2463,7 @@
                                                     "typeString": "address"
                                                 }
                                             ],
-                                            "id": 1772,
+                                            "id": 1775,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": true,
@@ -2475,7 +2475,7 @@
                                                 "typeString": "type(address payable)"
                                             },
                                             "typeName": {
-                                                "id": 1771,
+                                                "id": 1774,
                                                 "name": "address",
                                                 "nodeType": "ElementaryTypeName",
                                                 "src": "2497:8:8",
@@ -2483,7 +2483,7 @@
                                                 "typeDescriptions": {}
                                             }
                                         },
-                                        "id": 1777,
+                                        "id": 1780,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
@@ -2505,11 +2505,11 @@
                                     "expression": {
                                         "arguments": [
                                             {
-                                                "id": 1782,
+                                                "id": 1785,
                                                 "name": "price",
                                                 "nodeType": "Identifier",
                                                 "overloadedDeclarations": [],
-                                                "referencedDeclaration": 1748,
+                                                "referencedDeclaration": 1751,
                                                 "src": "2558:5:8",
                                                 "typeDescriptions": {
                                                     "typeIdentifier": "t_uint256",
@@ -2525,18 +2525,18 @@
                                                 }
                                             ],
                                             "expression": {
-                                                "id": 1779,
+                                                "id": 1782,
                                                 "name": "transferTarget",
                                                 "nodeType": "Identifier",
                                                 "overloadedDeclarations": [],
-                                                "referencedDeclaration": 1770,
+                                                "referencedDeclaration": 1773,
                                                 "src": "2534:14:8",
                                                 "typeDescriptions": {
                                                     "typeIdentifier": "t_address_payable",
                                                     "typeString": "address payable"
                                                 }
                                             },
-                                            "id": 1781,
+                                            "id": 1784,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": false,
@@ -2549,7 +2549,7 @@
                                                 "typeString": "function (uint256)"
                                             }
                                         },
-                                        "id": 1783,
+                                        "id": 1786,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
@@ -2564,7 +2564,7 @@
                                             "typeString": "tuple()"
                                         }
                                     },
-                                    "id": 1784,
+                                    "id": 1787,
                                     "nodeType": "ExpressionStatement",
                                     "src": "2534:30:8"
                                 },
@@ -2572,11 +2572,11 @@
                                     "eventCall": {
                                         "arguments": [
                                             {
-                                                "id": 1786,
+                                                "id": 1789,
                                                 "name": "sku",
                                                 "nodeType": "Identifier",
                                                 "overloadedDeclarations": [],
-                                                "referencedDeclaration": 1730,
+                                                "referencedDeclaration": 1733,
                                                 "src": "2672:3:8",
                                                 "typeDescriptions": {
                                                     "typeIdentifier": "t_uint256",
@@ -2591,18 +2591,18 @@
                                                     "typeString": "uint256"
                                                 }
                                             ],
-                                            "id": 1785,
+                                            "id": 1788,
                                             "name": "Sold",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 1608,
+                                            "referencedDeclaration": 1611,
                                             "src": "2667:4:8",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_function_event_nonpayable$_t_uint256_$returns$__$",
                                                 "typeString": "function (uint256)"
                                             }
                                         },
-                                        "id": 1787,
+                                        "id": 1790,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
@@ -2617,25 +2617,25 @@
                                             "typeString": "tuple()"
                                         }
                                     },
-                                    "id": 1788,
+                                    "id": 1791,
                                     "nodeType": "EmitStatement",
                                     "src": "2662:14:8"
                                 }
                             ]
                         },
                         "functionSelector": "e7fb74c7",
-                        "id": 1790,
+                        "id": 1793,
                         "implemented": true,
                         "kind": "function",
                         "modifiers": [
                             {
                                 "arguments": [
                                     {
-                                        "id": 1733,
+                                        "id": 1736,
                                         "name": "sku",
                                         "nodeType": "Identifier",
                                         "overloadedDeclarations": [],
-                                        "referencedDeclaration": 1730,
+                                        "referencedDeclaration": 1733,
                                         "src": "2160:3:8",
                                         "typeDescriptions": {
                                             "typeIdentifier": "t_uint256",
@@ -2643,13 +2643,13 @@
                                         }
                                     }
                                 ],
-                                "id": 1734,
+                                "id": 1737,
                                 "kind": "modifierInvocation",
                                 "modifierName": {
-                                    "id": 1732,
+                                    "id": 1735,
                                     "name": "forSale",
                                     "nodeType": "IdentifierPath",
-                                    "referencedDeclaration": 1661,
+                                    "referencedDeclaration": 1664,
                                     "src": "2152:7:8"
                                 },
                                 "nodeType": "ModifierInvocation",
@@ -2660,24 +2660,24 @@
                                     {
                                         "expression": {
                                             "baseExpression": {
-                                                "id": 1736,
+                                                "id": 1739,
                                                 "name": "items",
                                                 "nodeType": "Identifier",
                                                 "overloadedDeclarations": [],
-                                                "referencedDeclaration": 1600,
+                                                "referencedDeclaration": 1603,
                                                 "src": "2176:5:8",
                                                 "typeDescriptions": {
-                                                    "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1595_storage_$",
+                                                    "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1598_storage_$",
                                                     "typeString": "mapping(uint256 => struct LemonadeStand.Item storage ref)"
                                                 }
                                             },
-                                            "id": 1738,
+                                            "id": 1741,
                                             "indexExpression": {
-                                                "id": 1737,
+                                                "id": 1740,
                                                 "name": "sku",
                                                 "nodeType": "Identifier",
                                                 "overloadedDeclarations": [],
-                                                "referencedDeclaration": 1730,
+                                                "referencedDeclaration": 1733,
                                                 "src": "2182:3:8",
                                                 "typeDescriptions": {
                                                     "typeIdentifier": "t_uint256",
@@ -2691,18 +2691,18 @@
                                             "nodeType": "IndexAccess",
                                             "src": "2176:10:8",
                                             "typeDescriptions": {
-                                                "typeIdentifier": "t_struct$_Item_$1595_storage",
+                                                "typeIdentifier": "t_struct$_Item_$1598_storage",
                                                 "typeString": "struct LemonadeStand.Item storage ref"
                                             }
                                         },
-                                        "id": 1739,
+                                        "id": 1742,
                                         "isConstant": false,
                                         "isLValue": true,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "memberName": "price",
                                         "nodeType": "MemberAccess",
-                                        "referencedDeclaration": 1587,
+                                        "referencedDeclaration": 1590,
                                         "src": "2176:16:8",
                                         "typeDescriptions": {
                                             "typeIdentifier": "t_uint256",
@@ -2710,13 +2710,13 @@
                                         }
                                     }
                                 ],
-                                "id": 1740,
+                                "id": 1743,
                                 "kind": "modifierInvocation",
                                 "modifierName": {
-                                    "id": 1735,
+                                    "id": 1738,
                                     "name": "paidEnough",
                                     "nodeType": "IdentifierPath",
-                                    "referencedDeclaration": 1645,
+                                    "referencedDeclaration": 1648,
                                     "src": "2165:10:8"
                                 },
                                 "nodeType": "ModifierInvocation",
@@ -2727,17 +2727,17 @@
                         "nameLocation": "2134:7:8",
                         "nodeType": "FunctionDefinition",
                         "parameters": {
-                            "id": 1731,
+                            "id": 1734,
                             "nodeType": "ParameterList",
                             "parameters": [
                                 {
                                     "constant": false,
-                                    "id": 1730,
+                                    "id": 1733,
                                     "mutability": "mutable",
                                     "name": "sku",
                                     "nameLocation": "2147:3:8",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 1790,
+                                    "scope": 1793,
                                     "src": "2142:8:8",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -2746,7 +2746,7 @@
                                         "typeString": "uint256"
                                     },
                                     "typeName": {
-                                        "id": 1729,
+                                        "id": 1732,
                                         "name": "uint",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "2142:4:8",
@@ -2761,12 +2761,12 @@
                             "src": "2141:10:8"
                         },
                         "returnParameters": {
-                            "id": 1741,
+                            "id": 1744,
                             "nodeType": "ParameterList",
                             "parameters": [],
                             "src": "2208:0:8"
                         },
-                        "scope": 1875,
+                        "scope": 1878,
                         "src": "2125:559:8",
                         "stateMutability": "payable",
                         "virtual": false,
@@ -2774,23 +2774,23 @@
                     },
                     {
                         "body": {
-                            "id": 1873,
+                            "id": 1876,
                             "nodeType": "Block",
                             "src": "2839:395:8",
                             "statements": [
                                 {
                                     "assignments": [
-                                        1808
+                                        1811
                                     ],
                                     "declarations": [
                                         {
                                             "constant": false,
-                                            "id": 1808,
+                                            "id": 1811,
                                             "mutability": "mutable",
                                             "name": "state",
                                             "nameLocation": "2855:5:8",
                                             "nodeType": "VariableDeclaration",
-                                            "scope": 1873,
+                                            "scope": 1876,
                                             "src": "2850:10:8",
                                             "stateVariable": false,
                                             "storageLocation": "default",
@@ -2799,7 +2799,7 @@
                                                 "typeString": "uint256"
                                             },
                                             "typeName": {
-                                                "id": 1807,
+                                                "id": 1810,
                                                 "name": "uint",
                                                 "nodeType": "ElementaryTypeName",
                                                 "src": "2850:4:8",
@@ -2811,23 +2811,23 @@
                                             "visibility": "internal"
                                         }
                                     ],
-                                    "id": 1809,
+                                    "id": 1812,
                                     "nodeType": "VariableDeclarationStatement",
                                     "src": "2850:10:8"
                                 },
                                 {
                                     "expression": {
-                                        "id": 1815,
+                                        "id": 1818,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftHandSide": {
-                                            "id": 1810,
+                                            "id": 1813,
                                             "name": "name",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 1795,
+                                            "referencedDeclaration": 1798,
                                             "src": "2871:4:8",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_string_memory_ptr",
@@ -2839,24 +2839,24 @@
                                         "rightHandSide": {
                                             "expression": {
                                                 "baseExpression": {
-                                                    "id": 1811,
+                                                    "id": 1814,
                                                     "name": "items",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1600,
+                                                    "referencedDeclaration": 1603,
                                                     "src": "2878:5:8",
                                                     "typeDescriptions": {
-                                                        "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1595_storage_$",
+                                                        "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1598_storage_$",
                                                         "typeString": "mapping(uint256 => struct LemonadeStand.Item storage ref)"
                                                     }
                                                 },
-                                                "id": 1813,
+                                                "id": 1816,
                                                 "indexExpression": {
-                                                    "id": 1812,
+                                                    "id": 1815,
                                                     "name": "_sku",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1792,
+                                                    "referencedDeclaration": 1795,
                                                     "src": "2884:4:8",
                                                     "typeDescriptions": {
                                                         "typeIdentifier": "t_uint256",
@@ -2870,18 +2870,18 @@
                                                 "nodeType": "IndexAccess",
                                                 "src": "2878:11:8",
                                                 "typeDescriptions": {
-                                                    "typeIdentifier": "t_struct$_Item_$1595_storage",
+                                                    "typeIdentifier": "t_struct$_Item_$1598_storage",
                                                     "typeString": "struct LemonadeStand.Item storage ref"
                                                 }
                                             },
-                                            "id": 1814,
+                                            "id": 1817,
                                             "isConstant": false,
                                             "isLValue": true,
                                             "isPure": false,
                                             "lValueRequested": false,
                                             "memberName": "name",
                                             "nodeType": "MemberAccess",
-                                            "referencedDeclaration": 1583,
+                                            "referencedDeclaration": 1586,
                                             "src": "2878:16:8",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_string_storage",
@@ -2894,23 +2894,23 @@
                                             "typeString": "string memory"
                                         }
                                     },
-                                    "id": 1816,
+                                    "id": 1819,
                                     "nodeType": "ExpressionStatement",
                                     "src": "2871:23:8"
                                 },
                                 {
                                     "expression": {
-                                        "id": 1822,
+                                        "id": 1825,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftHandSide": {
-                                            "id": 1817,
+                                            "id": 1820,
                                             "name": "sku",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 1797,
+                                            "referencedDeclaration": 1800,
                                             "src": "2905:3:8",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_uint256",
@@ -2922,24 +2922,24 @@
                                         "rightHandSide": {
                                             "expression": {
                                                 "baseExpression": {
-                                                    "id": 1818,
+                                                    "id": 1821,
                                                     "name": "items",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1600,
+                                                    "referencedDeclaration": 1603,
                                                     "src": "2911:5:8",
                                                     "typeDescriptions": {
-                                                        "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1595_storage_$",
+                                                        "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1598_storage_$",
                                                         "typeString": "mapping(uint256 => struct LemonadeStand.Item storage ref)"
                                                     }
                                                 },
-                                                "id": 1820,
+                                                "id": 1823,
                                                 "indexExpression": {
-                                                    "id": 1819,
+                                                    "id": 1822,
                                                     "name": "_sku",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1792,
+                                                    "referencedDeclaration": 1795,
                                                     "src": "2917:4:8",
                                                     "typeDescriptions": {
                                                         "typeIdentifier": "t_uint256",
@@ -2953,18 +2953,18 @@
                                                 "nodeType": "IndexAccess",
                                                 "src": "2911:11:8",
                                                 "typeDescriptions": {
-                                                    "typeIdentifier": "t_struct$_Item_$1595_storage",
+                                                    "typeIdentifier": "t_struct$_Item_$1598_storage",
                                                     "typeString": "struct LemonadeStand.Item storage ref"
                                                 }
                                             },
-                                            "id": 1821,
+                                            "id": 1824,
                                             "isConstant": false,
                                             "isLValue": true,
                                             "isPure": false,
                                             "lValueRequested": false,
                                             "memberName": "sku",
                                             "nodeType": "MemberAccess",
-                                            "referencedDeclaration": 1585,
+                                            "referencedDeclaration": 1588,
                                             "src": "2911:15:8",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_uint256",
@@ -2977,23 +2977,23 @@
                                             "typeString": "uint256"
                                         }
                                     },
-                                    "id": 1823,
+                                    "id": 1826,
                                     "nodeType": "ExpressionStatement",
                                     "src": "2905:21:8"
                                 },
                                 {
                                     "expression": {
-                                        "id": 1829,
+                                        "id": 1832,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftHandSide": {
-                                            "id": 1824,
+                                            "id": 1827,
                                             "name": "price",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 1799,
+                                            "referencedDeclaration": 1802,
                                             "src": "2937:5:8",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_uint256",
@@ -3005,24 +3005,24 @@
                                         "rightHandSide": {
                                             "expression": {
                                                 "baseExpression": {
-                                                    "id": 1825,
+                                                    "id": 1828,
                                                     "name": "items",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1600,
+                                                    "referencedDeclaration": 1603,
                                                     "src": "2945:5:8",
                                                     "typeDescriptions": {
-                                                        "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1595_storage_$",
+                                                        "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1598_storage_$",
                                                         "typeString": "mapping(uint256 => struct LemonadeStand.Item storage ref)"
                                                     }
                                                 },
-                                                "id": 1827,
+                                                "id": 1830,
                                                 "indexExpression": {
-                                                    "id": 1826,
+                                                    "id": 1829,
                                                     "name": "_sku",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1792,
+                                                    "referencedDeclaration": 1795,
                                                     "src": "2951:4:8",
                                                     "typeDescriptions": {
                                                         "typeIdentifier": "t_uint256",
@@ -3036,18 +3036,18 @@
                                                 "nodeType": "IndexAccess",
                                                 "src": "2945:11:8",
                                                 "typeDescriptions": {
-                                                    "typeIdentifier": "t_struct$_Item_$1595_storage",
+                                                    "typeIdentifier": "t_struct$_Item_$1598_storage",
                                                     "typeString": "struct LemonadeStand.Item storage ref"
                                                 }
                                             },
-                                            "id": 1828,
+                                            "id": 1831,
                                             "isConstant": false,
                                             "isLValue": true,
                                             "isPure": false,
                                             "lValueRequested": false,
                                             "memberName": "price",
                                             "nodeType": "MemberAccess",
-                                            "referencedDeclaration": 1587,
+                                            "referencedDeclaration": 1590,
                                             "src": "2945:17:8",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_uint256",
@@ -3060,23 +3060,23 @@
                                             "typeString": "uint256"
                                         }
                                     },
-                                    "id": 1830,
+                                    "id": 1833,
                                     "nodeType": "ExpressionStatement",
                                     "src": "2937:25:8"
                                 },
                                 {
                                     "expression": {
-                                        "id": 1839,
+                                        "id": 1842,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftHandSide": {
-                                            "id": 1831,
+                                            "id": 1834,
                                             "name": "state",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 1808,
+                                            "referencedDeclaration": 1811,
                                             "src": "2973:5:8",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_uint256",
@@ -3090,24 +3090,24 @@
                                                 {
                                                     "expression": {
                                                         "baseExpression": {
-                                                            "id": 1834,
+                                                            "id": 1837,
                                                             "name": "items",
                                                             "nodeType": "Identifier",
                                                             "overloadedDeclarations": [],
-                                                            "referencedDeclaration": 1600,
+                                                            "referencedDeclaration": 1603,
                                                             "src": "2986:5:8",
                                                             "typeDescriptions": {
-                                                                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1595_storage_$",
+                                                                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1598_storage_$",
                                                                 "typeString": "mapping(uint256 => struct LemonadeStand.Item storage ref)"
                                                             }
                                                         },
-                                                        "id": 1836,
+                                                        "id": 1839,
                                                         "indexExpression": {
-                                                            "id": 1835,
+                                                            "id": 1838,
                                                             "name": "_sku",
                                                             "nodeType": "Identifier",
                                                             "overloadedDeclarations": [],
-                                                            "referencedDeclaration": 1792,
+                                                            "referencedDeclaration": 1795,
                                                             "src": "2992:4:8",
                                                             "typeDescriptions": {
                                                                 "typeIdentifier": "t_uint256",
@@ -3121,21 +3121,21 @@
                                                         "nodeType": "IndexAccess",
                                                         "src": "2986:11:8",
                                                         "typeDescriptions": {
-                                                            "typeIdentifier": "t_struct$_Item_$1595_storage",
+                                                            "typeIdentifier": "t_struct$_Item_$1598_storage",
                                                             "typeString": "struct LemonadeStand.Item storage ref"
                                                         }
                                                     },
-                                                    "id": 1837,
+                                                    "id": 1840,
                                                     "isConstant": false,
                                                     "isLValue": true,
                                                     "isPure": false,
                                                     "lValueRequested": false,
                                                     "memberName": "state",
                                                     "nodeType": "MemberAccess",
-                                                    "referencedDeclaration": 1590,
+                                                    "referencedDeclaration": 1593,
                                                     "src": "2986:17:8",
                                                     "typeDescriptions": {
-                                                        "typeIdentifier": "t_enum$_State_$1581",
+                                                        "typeIdentifier": "t_enum$_State_$1584",
                                                         "typeString": "enum LemonadeStand.State"
                                                     }
                                                 }
@@ -3143,11 +3143,11 @@
                                             "expression": {
                                                 "argumentTypes": [
                                                     {
-                                                        "typeIdentifier": "t_enum$_State_$1581",
+                                                        "typeIdentifier": "t_enum$_State_$1584",
                                                         "typeString": "enum LemonadeStand.State"
                                                     }
                                                 ],
-                                                "id": 1833,
+                                                "id": 1836,
                                                 "isConstant": false,
                                                 "isLValue": false,
                                                 "isPure": true,
@@ -3159,14 +3159,14 @@
                                                     "typeString": "type(uint256)"
                                                 },
                                                 "typeName": {
-                                                    "id": 1832,
+                                                    "id": 1835,
                                                     "name": "uint",
                                                     "nodeType": "ElementaryTypeName",
                                                     "src": "2981:4:8",
                                                     "typeDescriptions": {}
                                                 }
                                             },
-                                            "id": 1838,
+                                            "id": 1841,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": false,
@@ -3187,7 +3187,7 @@
                                             "typeString": "uint256"
                                         }
                                     },
-                                    "id": 1840,
+                                    "id": 1843,
                                     "nodeType": "ExpressionStatement",
                                     "src": "2973:31:8"
                                 },
@@ -3197,17 +3197,17 @@
                                             "typeIdentifier": "t_uint256",
                                             "typeString": "uint256"
                                         },
-                                        "id": 1843,
+                                        "id": 1846,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftExpression": {
-                                            "id": 1841,
+                                            "id": 1844,
                                             "name": "state",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 1808,
+                                            "referencedDeclaration": 1811,
                                             "src": "3021:5:8",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_uint256",
@@ -3218,7 +3218,7 @@
                                         "operator": "==",
                                         "rightExpression": {
                                             "hexValue": "30",
-                                            "id": 1842,
+                                            "id": 1845,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": true,
@@ -3238,27 +3238,27 @@
                                             "typeString": "bool"
                                         }
                                     },
-                                    "id": 1849,
+                                    "id": 1852,
                                     "nodeType": "IfStatement",
                                     "src": "3017:63:8",
                                     "trueBody": {
-                                        "id": 1848,
+                                        "id": 1851,
                                         "nodeType": "Block",
                                         "src": "3033:47:8",
                                         "statements": [
                                             {
                                                 "expression": {
-                                                    "id": 1846,
+                                                    "id": 1849,
                                                     "isConstant": false,
                                                     "isLValue": false,
                                                     "isPure": false,
                                                     "lValueRequested": false,
                                                     "leftHandSide": {
-                                                        "id": 1844,
+                                                        "id": 1847,
                                                         "name": "stateIs",
                                                         "nodeType": "Identifier",
                                                         "overloadedDeclarations": [],
-                                                        "referencedDeclaration": 1801,
+                                                        "referencedDeclaration": 1804,
                                                         "src": "3048:7:8",
                                                         "typeDescriptions": {
                                                             "typeIdentifier": "t_string_memory_ptr",
@@ -3269,7 +3269,7 @@
                                                     "operator": "=",
                                                     "rightHandSide": {
                                                         "hexValue": "466f722053616c65",
-                                                        "id": 1845,
+                                                        "id": 1848,
                                                         "isConstant": false,
                                                         "isLValue": false,
                                                         "isPure": true,
@@ -3289,7 +3289,7 @@
                                                         "typeString": "string memory"
                                                     }
                                                 },
-                                                "id": 1847,
+                                                "id": 1850,
                                                 "nodeType": "ExpressionStatement",
                                                 "src": "3048:20:8"
                                             }
@@ -3302,17 +3302,17 @@
                                             "typeIdentifier": "t_uint256",
                                             "typeString": "uint256"
                                         },
-                                        "id": 1852,
+                                        "id": 1855,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftExpression": {
-                                            "id": 1850,
+                                            "id": 1853,
                                             "name": "state",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 1808,
+                                            "referencedDeclaration": 1811,
                                             "src": "3096:5:8",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_uint256",
@@ -3323,7 +3323,7 @@
                                         "operator": "==",
                                         "rightExpression": {
                                             "hexValue": "31",
-                                            "id": 1851,
+                                            "id": 1854,
                                             "isConstant": false,
                                             "isLValue": false,
                                             "isPure": true,
@@ -3343,27 +3343,27 @@
                                             "typeString": "bool"
                                         }
                                     },
-                                    "id": 1858,
+                                    "id": 1861,
                                     "nodeType": "IfStatement",
                                     "src": "3092:59:8",
                                     "trueBody": {
-                                        "id": 1857,
+                                        "id": 1860,
                                         "nodeType": "Block",
                                         "src": "3108:43:8",
                                         "statements": [
                                             {
                                                 "expression": {
-                                                    "id": 1855,
+                                                    "id": 1858,
                                                     "isConstant": false,
                                                     "isLValue": false,
                                                     "isPure": false,
                                                     "lValueRequested": false,
                                                     "leftHandSide": {
-                                                        "id": 1853,
+                                                        "id": 1856,
                                                         "name": "stateIs",
                                                         "nodeType": "Identifier",
                                                         "overloadedDeclarations": [],
-                                                        "referencedDeclaration": 1801,
+                                                        "referencedDeclaration": 1804,
                                                         "src": "3123:7:8",
                                                         "typeDescriptions": {
                                                             "typeIdentifier": "t_string_memory_ptr",
@@ -3374,7 +3374,7 @@
                                                     "operator": "=",
                                                     "rightHandSide": {
                                                         "hexValue": "536f6c64",
-                                                        "id": 1854,
+                                                        "id": 1857,
                                                         "isConstant": false,
                                                         "isLValue": false,
                                                         "isPure": true,
@@ -3394,7 +3394,7 @@
                                                         "typeString": "string memory"
                                                     }
                                                 },
-                                                "id": 1856,
+                                                "id": 1859,
                                                 "nodeType": "ExpressionStatement",
                                                 "src": "3123:16:8"
                                             }
@@ -3403,17 +3403,17 @@
                                 },
                                 {
                                     "expression": {
-                                        "id": 1864,
+                                        "id": 1867,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftHandSide": {
-                                            "id": 1859,
+                                            "id": 1862,
                                             "name": "seller",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 1803,
+                                            "referencedDeclaration": 1806,
                                             "src": "3163:6:8",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_address",
@@ -3425,24 +3425,24 @@
                                         "rightHandSide": {
                                             "expression": {
                                                 "baseExpression": {
-                                                    "id": 1860,
+                                                    "id": 1863,
                                                     "name": "items",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1600,
+                                                    "referencedDeclaration": 1603,
                                                     "src": "3172:5:8",
                                                     "typeDescriptions": {
-                                                        "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1595_storage_$",
+                                                        "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1598_storage_$",
                                                         "typeString": "mapping(uint256 => struct LemonadeStand.Item storage ref)"
                                                     }
                                                 },
-                                                "id": 1862,
+                                                "id": 1865,
                                                 "indexExpression": {
-                                                    "id": 1861,
+                                                    "id": 1864,
                                                     "name": "_sku",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1792,
+                                                    "referencedDeclaration": 1795,
                                                     "src": "3178:4:8",
                                                     "typeDescriptions": {
                                                         "typeIdentifier": "t_uint256",
@@ -3456,18 +3456,18 @@
                                                 "nodeType": "IndexAccess",
                                                 "src": "3172:11:8",
                                                 "typeDescriptions": {
-                                                    "typeIdentifier": "t_struct$_Item_$1595_storage",
+                                                    "typeIdentifier": "t_struct$_Item_$1598_storage",
                                                     "typeString": "struct LemonadeStand.Item storage ref"
                                                 }
                                             },
-                                            "id": 1863,
+                                            "id": 1866,
                                             "isConstant": false,
                                             "isLValue": true,
                                             "isPure": false,
                                             "lValueRequested": false,
                                             "memberName": "seller",
                                             "nodeType": "MemberAccess",
-                                            "referencedDeclaration": 1592,
+                                            "referencedDeclaration": 1595,
                                             "src": "3172:18:8",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_address",
@@ -3480,23 +3480,23 @@
                                             "typeString": "address"
                                         }
                                     },
-                                    "id": 1865,
+                                    "id": 1868,
                                     "nodeType": "ExpressionStatement",
                                     "src": "3163:27:8"
                                 },
                                 {
                                     "expression": {
-                                        "id": 1871,
+                                        "id": 1874,
                                         "isConstant": false,
                                         "isLValue": false,
                                         "isPure": false,
                                         "lValueRequested": false,
                                         "leftHandSide": {
-                                            "id": 1866,
+                                            "id": 1869,
                                             "name": "buyer",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-                                            "referencedDeclaration": 1805,
+                                            "referencedDeclaration": 1808,
                                             "src": "3201:5:8",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_address",
@@ -3508,24 +3508,24 @@
                                         "rightHandSide": {
                                             "expression": {
                                                 "baseExpression": {
-                                                    "id": 1867,
+                                                    "id": 1870,
                                                     "name": "items",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1600,
+                                                    "referencedDeclaration": 1603,
                                                     "src": "3209:5:8",
                                                     "typeDescriptions": {
-                                                        "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1595_storage_$",
+                                                        "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Item_$1598_storage_$",
                                                         "typeString": "mapping(uint256 => struct LemonadeStand.Item storage ref)"
                                                     }
                                                 },
-                                                "id": 1869,
+                                                "id": 1872,
                                                 "indexExpression": {
-                                                    "id": 1868,
+                                                    "id": 1871,
                                                     "name": "_sku",
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
-                                                    "referencedDeclaration": 1792,
+                                                    "referencedDeclaration": 1795,
                                                     "src": "3215:4:8",
                                                     "typeDescriptions": {
                                                         "typeIdentifier": "t_uint256",
@@ -3539,18 +3539,18 @@
                                                 "nodeType": "IndexAccess",
                                                 "src": "3209:11:8",
                                                 "typeDescriptions": {
-                                                    "typeIdentifier": "t_struct$_Item_$1595_storage",
+                                                    "typeIdentifier": "t_struct$_Item_$1598_storage",
                                                     "typeString": "struct LemonadeStand.Item storage ref"
                                                 }
                                             },
-                                            "id": 1870,
+                                            "id": 1873,
                                             "isConstant": false,
                                             "isLValue": true,
                                             "isPure": false,
                                             "lValueRequested": false,
                                             "memberName": "buyer",
                                             "nodeType": "MemberAccess",
-                                            "referencedDeclaration": 1594,
+                                            "referencedDeclaration": 1597,
                                             "src": "3209:17:8",
                                             "typeDescriptions": {
                                                 "typeIdentifier": "t_address",
@@ -3563,14 +3563,14 @@
                                             "typeString": "address"
                                         }
                                     },
-                                    "id": 1872,
+                                    "id": 1875,
                                     "nodeType": "ExpressionStatement",
                                     "src": "3201:25:8"
                                 }
                             ]
                         },
                         "functionSelector": "ad4b9cfb",
-                        "id": 1874,
+                        "id": 1877,
                         "implemented": true,
                         "kind": "function",
                         "modifiers": [],
@@ -3578,17 +3578,17 @@
                         "nameLocation": "2701:9:8",
                         "nodeType": "FunctionDefinition",
                         "parameters": {
-                            "id": 1793,
+                            "id": 1796,
                             "nodeType": "ParameterList",
                             "parameters": [
                                 {
                                     "constant": false,
-                                    "id": 1792,
+                                    "id": 1795,
                                     "mutability": "mutable",
                                     "name": "_sku",
                                     "nameLocation": "2716:4:8",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 1874,
+                                    "scope": 1877,
                                     "src": "2711:9:8",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -3597,7 +3597,7 @@
                                         "typeString": "uint256"
                                     },
                                     "typeName": {
-                                        "id": 1791,
+                                        "id": 1794,
                                         "name": "uint",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "2711:4:8",
@@ -3612,17 +3612,17 @@
                             "src": "2710:11:8"
                         },
                         "returnParameters": {
-                            "id": 1806,
+                            "id": 1809,
                             "nodeType": "ParameterList",
                             "parameters": [
                                 {
                                     "constant": false,
-                                    "id": 1795,
+                                    "id": 1798,
                                     "mutability": "mutable",
                                     "name": "name",
                                     "nameLocation": "2757:4:8",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 1874,
+                                    "scope": 1877,
                                     "src": "2743:18:8",
                                     "stateVariable": false,
                                     "storageLocation": "memory",
@@ -3631,7 +3631,7 @@
                                         "typeString": "string"
                                     },
                                     "typeName": {
-                                        "id": 1794,
+                                        "id": 1797,
                                         "name": "string",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "2743:6:8",
@@ -3644,12 +3644,12 @@
                                 },
                                 {
                                     "constant": false,
-                                    "id": 1797,
+                                    "id": 1800,
                                     "mutability": "mutable",
                                     "name": "sku",
                                     "nameLocation": "2768:3:8",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 1874,
+                                    "scope": 1877,
                                     "src": "2763:8:8",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -3658,7 +3658,7 @@
                                         "typeString": "uint256"
                                     },
                                     "typeName": {
-                                        "id": 1796,
+                                        "id": 1799,
                                         "name": "uint",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "2763:4:8",
@@ -3671,12 +3671,12 @@
                                 },
                                 {
                                     "constant": false,
-                                    "id": 1799,
+                                    "id": 1802,
                                     "mutability": "mutable",
                                     "name": "price",
                                     "nameLocation": "2778:5:8",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 1874,
+                                    "scope": 1877,
                                     "src": "2773:10:8",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -3685,7 +3685,7 @@
                                         "typeString": "uint256"
                                     },
                                     "typeName": {
-                                        "id": 1798,
+                                        "id": 1801,
                                         "name": "uint",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "2773:4:8",
@@ -3698,12 +3698,12 @@
                                 },
                                 {
                                     "constant": false,
-                                    "id": 1801,
+                                    "id": 1804,
                                     "mutability": "mutable",
                                     "name": "stateIs",
                                     "nameLocation": "2799:7:8",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 1874,
+                                    "scope": 1877,
                                     "src": "2785:21:8",
                                     "stateVariable": false,
                                     "storageLocation": "memory",
@@ -3712,7 +3712,7 @@
                                         "typeString": "string"
                                     },
                                     "typeName": {
-                                        "id": 1800,
+                                        "id": 1803,
                                         "name": "string",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "2785:6:8",
@@ -3725,12 +3725,12 @@
                                 },
                                 {
                                     "constant": false,
-                                    "id": 1803,
+                                    "id": 1806,
                                     "mutability": "mutable",
                                     "name": "seller",
                                     "nameLocation": "2816:6:8",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 1874,
+                                    "scope": 1877,
                                     "src": "2808:14:8",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -3739,7 +3739,7 @@
                                         "typeString": "address"
                                     },
                                     "typeName": {
-                                        "id": 1802,
+                                        "id": 1805,
                                         "name": "address",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "2808:7:8",
@@ -3753,12 +3753,12 @@
                                 },
                                 {
                                     "constant": false,
-                                    "id": 1805,
+                                    "id": 1808,
                                     "mutability": "mutable",
                                     "name": "buyer",
                                     "nameLocation": "2832:5:8",
                                     "nodeType": "VariableDeclaration",
-                                    "scope": 1874,
+                                    "scope": 1877,
                                     "src": "2824:13:8",
                                     "stateVariable": false,
                                     "storageLocation": "default",
@@ -3767,7 +3767,7 @@
                                         "typeString": "address"
                                     },
                                     "typeName": {
-                                        "id": 1804,
+                                        "id": 1807,
                                         "name": "address",
                                         "nodeType": "ElementaryTypeName",
                                         "src": "2824:7:8",
@@ -3782,14 +3782,14 @@
                             ],
                             "src": "2742:96:8"
                         },
-                        "scope": 1875,
+                        "scope": 1878,
                         "src": "2692:542:8",
                         "stateMutability": "view",
                         "virtual": false,
                         "visibility": "public"
                     }
                 ],
-                "scope": 1876,
+                "scope": 1879,
                 "src": "105:3134:8",
                 "usedErrors": []
             }
