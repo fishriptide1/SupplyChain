@@ -1,0 +1,7 @@
+{
+  "solidity.compileUsingRemoteVersion": "v0.5.16+commit.9c3226ce",
+  "solidity.compileUsingLocalVersion": "d:\\Udacity\\Home\\Workspace\\SupplyChain\\project-6\\soljson-v0.8.13+commit.abaa5c0e.js",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "solidity.defaultCompiler": "localFile"
+}
